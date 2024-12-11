@@ -5,7 +5,7 @@ const secs = document.getElementById('sec');
 
 const func = () => {
   const today = Date.now();
-  const newdate = new Date("December 8, 2024 23:00:00");
+  const newdate = new Date("December 8, 2024 23:10:00");
   const diff = today - newdate;
 
   const sec = 1000;
